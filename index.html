@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Background Image</title>
   <style>
-    html {
+    html, body {
+      margin: 0; /* Remove default margins */
+      height: 100%; /* Ensure full height */
+      width: 100%; /* Ensure full width */
       background-image: url('front.jpg'); /* Path to your image */
       background-size: cover; /* Makes it cover the entire background */
       background-repeat: no-repeat; /* Prevents the image from repeating */
       background-position: center; /* Centers the image */
+      h1 {
+      color: white; /* Make text white */
+      text-align: center; /* Center the text horizontally */
+    }
     }
   </style>
 </head>
